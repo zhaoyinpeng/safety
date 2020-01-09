@@ -1,0 +1,40 @@
+<html>
+
+<head>
+  <title>factly的主框架</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .box {
+      display: flex;
+      width: 400px;
+      height: 700px;
+    }
+
+    .a {
+      border: 1px solid #ccc;
+      flex-grow: 1;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .iframeTest {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="box">
+    <div class="a">
+      <iframe src="./test.html" class="iframeTest" width="100%" height="100%"></iframe>
+    </div>
+  </div>
+</body>
+
+</html>
